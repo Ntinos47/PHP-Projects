@@ -26,6 +26,8 @@ $sections = array(
     )
   ),
 ); ?>
+
+
 <?php foreach ($sections as $section) { ?>
   <div id="<?php echo $section['id']; ?>">
     <h2>
