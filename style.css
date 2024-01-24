@@ -1,0 +1,384 @@
+@font-face {
+  font-family: 'vega';
+  src: url(fonts/BFVEGA10-REGULAR.woff) format('woff');
+}
+@font-face {
+  font-family: 'vegasemi';
+  src: url(fonts/BFVEGASEMI10-BOLD.woff) format('woff');
+}
+@font-face {
+  font-family: vegaultra;
+  src: url(fonts/BFVEGAULTRA10-REGULAR.woff) format('woff');
+}
+
+/**********************************************************************/
+.title-replace {
+  height: 100%;
+  width: 300px;
+  flex-direction: column;
+}
+@media only screen and (max-width: 1024px) {
+  div.title-replace {
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: end;
+  }
+}
+
+
+.project1 {
+  background-color: #E2EBD8;
+}
+.project2 {
+  background-color: white;
+}
+.project3 {
+  background-color: #e8e6e6;
+}
+.project4 {
+  background-color: #272A2E;
+}
+
+#all {
+  color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#all3 {
+  color: black;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+.wrap-pr {
+  width:100%;
+  max-width:1644px;
+  margin: auto;
+}
+/**********************************************************************/
+
+img {
+  max-width:100%;
+}
+#df-cl {
+  background-color: #C7D2BD;
+  padding: 14px;
+}
+.wrap-img {
+  position: relative;
+  padding-bottom: 66.2%;
+}
+.wrap-img img {
+  height:100%;
+  width: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  object-fit: cover;
+  object-position: center;
+}
+.wrap-img1 {
+  position: relative;
+}
+.wrap-img1 img {
+  width: 20%;
+  position: absolute;
+  left: 82%;
+  bottom: 0%;
+  background-color: #C7D2BD;
+  padding: 15px 5px 5px 7px;
+}
+.wrap-header h3{
+  margin:20px 0 40px 0;
+  font-size: 22px;
+  font-family: 'vegasemi';
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.title {
+  top: 34px; left: 25px; color: black; font-size: 18px; font-weight: 700; line-height: 20px; font-family: 'vegaultra';
+}
+.all-art{
+  top: 372px; left: 26px; font-size: 12px; font-weight: 600; font-family: 'Manrope';
+}
+.theme {
+  color: #26262699; font-weight: 600; font-family: 'Manrope';
+}
+.names {
+  color: black; font-weight: 600; font-family: 'Manrope';
+}
+.subtitle {
+  font-size: 18px; font-weight: 400; line-height: 20px; color: black; font-family: 'vegaultra'; margin-bottom: 10px;
+}
+.name {
+  color: black; font-weight: 700; font-size: 14px; margin-bottom: 10px; margin-top: -15px; line-height: 24px; font-family: 'Manrope';
+}
+.fin-art {
+  line-height: 23px; font-size: 22px; font-weight: 400; font-family: 'vega'; margin-bottom: 30px;
+}
+/*===========================================================================================================*/
+.wrap-img2 {position: relative;padding-bottom: 50%;}
+.wrap-img2 img {
+  height:100%; 
+  width: 100%; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  object-fit: cover; 
+  object-position: center;
+}
+#p2 {font-size: 14px;font-weight: 700; margin-top: 10px; line-height: 19px; font-family: 'Manrope';}
+.inline-article{width:100%; display:flex; flex-direction:row-reverse}
+.wrap-thumb1 {width:50%}
+.wrap-post1 {width:60%}
+.wrap-post {
+  height: 100%;
+}
+.is-flex {
+  display: flex;
+  line-height: 19px;
+}
+.art2 {
+  font-size: 28px; font-weight: 800; line-height: 32px; font-family: 'vegasemi';
+}
+.date {
+  font-size: 14px; font-weight: 500; color: #8C8C8C; padding-right: 10px; font-family: 'Manrope';
+}
+.name2 {
+  font-size: 14px; font-weight: 700; font-family: 'Manrope';
+}
+.art {
+  color: #737373; font-size: 18px; line-height: 22px; margin-top: 40px; font-weight: 400; font-family: 'vega';
+}
+.up-down-art {
+  font-size: 18px; line-height: 20px; font-weight: 700; font-family: 'vegasemi';
+}
+/*===========================================================================================================*/
+.article3 {display: flex;}
+.wrap-content {margin-left: 20px; margin-right: 20px;}
+.wrap-post3 {max-width: 300px;}
+.dropbtn {
+  background-color: #ffffff;
+  color: #3A55A6;
+  border: 1.6px solid #3A55A6;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1.6px solid #3A55A6;
+}
+.dropdown-content a {
+  color: #3A55A6B3;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 5px;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd; font-weight: 700; color: #3A55A6;}
+.dropdown:hover .dropdown-content {display: block; width: 138px;}
+.dropdown:hover .dropbtn {background-color: #3A55A6; color:white}
+.title3 {
+  font-size: 18px; font-weight: 400; margin: 10px 0px 20px 10px; font-family: 'vegaultra';
+}
+.art-theme {
+  font-size: 14px; line-height: 18px; margin-bottom: 15px; font-weight: 800; font-family: 'Manrope'; 
+}
+.art-content {
+  font-size: 22px; line-height: 24px; font-weight: 700; font-family: 'vegasemi';
+}
+/*===========================================================================================================*/
+.all1 {
+  background-color: #272A2E;
+}
+.wrap-img img {
+  width: 100%;
+  height:100%;
+  position: absolute;
+  
+  object-fit: cover;
+  object-position: center;
+}
+.wrap-img-pb {
+  position: relative;
+}
+.wrap-img-pb img {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  left: 41%;
+  margin-bottom: 17%;
+  bottom: 0%;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrap-ef {
+  width: 310px;
+  padding-right: 25px;
+  margin: auto;
+}
+#ef-h {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  line-height: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'vegaultra';
+  letter-spacing: -0.40px;
+}
+.post {
+  display: flex;
+  flex-wrap: wrap;
+}
+.div-under {
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap:nowrap;
+  margin-top: -25px;
+  margin-left: 0px;
+}
+.wrap-postmeta {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 19px;
+  color: white;
+}
+#arts {
+  margin-top: -6%;
+}
+#slick-buttons {
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  justify-content: center;
+}
+#slick .arrow_prev {
+  position: relative;
+  margin-right: 5px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+#slick .arrow_next {
+  position: relative;
+  margin-left: 5px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+#arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+#art {
+  margin-top: 20px;
+}
+.title4 {
+  color: #ffffff; top: 34px; font-size: 18px; font-weight: 400; margin-left: 20px; margin-top: 20px; line-height: 20px; font-family: 'vegaultra';
+}
+.first-art {
+  color:white; font-size: 36px; font-weight: 700; line-height: 41px; font-family: 'vegasemi';
+}
+.art-sub {
+  color:white; font-size: 18px; line-height: 22px; font-weight: 400; font-family: 'vega';
+}
+.arts-theme {
+  margin-top: 15px; font-size: 22px; color: white; line-height: 24px; font-weight: 700; font-family: 'vegasemi';
+}
+.theme4 {
+  font-size: 14px; color: white; line-height: 19px; font-weight: 600; font-family: 'Manrope';
+}
+.names4 {
+  font-size: 14px; color: white; line-height: 19px; font-weight: 700; font-family: 'Manrope';
+}
+
+.footer {
+  background-color: #272A2E;
+  padding: 3rem 1.5rem 3rem;
+}
+.wrap-footer {
+  background-color: #16191A;
+  padding-bottom: 22px;
+}
+.footer-content {
+  margin-left: 3%;
+}
+
+.content-1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 11%;
+  color: white;
+  font-size: 46px;
+  letter-spacing: -1px;
+  line-height: 66px;
+  font-weight: 900;
+  font-family: 'vegaultra';
+  padding-top: 20px;
+  margin-bottom: -12px;
+}
+.content-2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  letter-spacing: -1.30px;
+  line-height: 89px;
+  font-size: 63px;
+  font-weight: 900;
+  font-family: 'vegaultra';
+}
+
+
+.wrap-podcast {
+  display: flex;
+  justify-content: center;
+  margin-left: 6%;
+}
+.podcast {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'vegaultra';
+}
+.wrap-link {
+  display: flex;
+  align-items: center;
+}
+.link-podcast {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFBA59;
+  border: none;
+  border-radius: 3px;
+  color: black;
+  height: 25px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 1000;
+  font-family: 'Manrope';
+}
+.arrow {
+  font-size: 30px;
+  margin-top: -3px;;
+}
