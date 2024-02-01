@@ -141,11 +141,16 @@ array('id'=> 'sec-4', 'sectiontitle' => '50 ΧΡΟΝΙΑ ΠΟΛΥΤΕΧΝΕΙΟ'
 ); ?>
 
 
-<?php
-    foreach ($full_article as $section) {
-        echo "$section <br>";
-    }    
-?>
+<?php foreach ($full_article as $section) { ?>
+    <div id="<?php echo $section['id']; ?>">
+        <h2><?php echo $section['sectiontitle']; ?></h2>
+        <?php foreach($section['posts'] as $post) { ?>
+        <article>
+            <?php echo $post['title']; ?>
+        </article>
+        <?php } ?>
+    </div>
+<?php } ?>
 
 
 </body>
